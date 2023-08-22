@@ -18,10 +18,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 100px;
+    padding: 15px 20px;
     z-index: 10;
 }
 
+/* Ski more logo */
 header .logo {
     position: relative;
     font-size: 1.5em;
@@ -29,7 +30,11 @@ header .logo {
     text-decoration: none;
     font-weight: 600;
 }
+.sm-logo {
+    color: darkblue;
+}
 
+/* Navigation */
 header .navigation {
     display: flex;
     justify-content: center;
@@ -53,10 +58,6 @@ header .navigation li a:hover {
     color: darkblue;
 }
 
-.sm-logo{
-    color: darkblue;
-}
-
 /* Main content */
 
 /* Hero image */
@@ -71,3 +72,10 @@ footer {
     background-color: #689ef1
 }
 
+
+@media (max-width: 424px) {
+    header{
+        padding: 10px 20px;
+        flex-direction: column;
+    }
+}
