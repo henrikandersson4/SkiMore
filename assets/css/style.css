@@ -8,6 +8,22 @@
     box-sizing: border-box;
 }
 
+/* Genaral Styles */
+
+.section-title {
+    font-family: Ubuntu;
+    font-size: 120%;
+    padding-top: 5%;
+    padding-left: 2%;
+    color: rgb(48, 48, 48);
+}
+
+.section p {
+    font-family: Catamaran;
+    padding-left: 1%;
+    color: rgb(48, 48, 48);
+}
+
 /* Header */
 header { 
     background: #2d7ef7;
@@ -26,14 +42,14 @@ header {
 header .logo {
     position: relative;
     font-size: 1.5em;
-    color: white;
+    color: snow;
     text-decoration: none;
     font-weight: 600;
     font-family: Montserrat;
     font-size: 300%;
 }
 .sm-logo {
-    color: black;
+    color: rgb(48, 48, 48);
 }
 
 /* Navigation */
@@ -51,23 +67,46 @@ header .navigation li {
 }
 
 header .navigation li a {
-    color: white;
+    color: snow;
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 1px;
 }
 
 header .navigation li a:hover {
-    color: black;
+    color: rgb(48, 48, 48);
 }
 
 /* Main content */
 
 /* Hero image */
 #two-skiers {
-    height: 700px;
+    min-height: 700px;
     width: 100%;
     background: url("../images/two-skiers.jpg") no-repeat center center/cover;
+}
+
+/* Bar between hero image and first section */
+.bar {
+    background: rgb(48, 48, 48);
+    color: snow;
+    font-family: Ubuntu;
+}
+
+.bar h2 {
+    font-size: 150%;
+    padding-left: 2%;
+}
+
+/* First Section: About */
+.section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#ski-lifts {
+    background: url("../images/ski-lifts.jpg") no-repeat center center/cover;
+    min-height: 300px;
 }
 
 /* Footer */
@@ -86,7 +125,7 @@ footer {
 }
 
 .footer li a{
-    color: white;
+    color: snow;
 }
 
 .fotter i {
