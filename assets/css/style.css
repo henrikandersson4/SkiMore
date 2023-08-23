@@ -10,17 +10,23 @@
 
 /* Genaral Styles */
 
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
 .section-title {
     font-family: Ubuntu;
     font-size: 120%;
-    padding-top: 5%;
-    padding-left: 2%;
+    padding-top: 15px;
+    padding-left: 6px;
     color: rgb(48, 48, 48);
 }
 
 .section p {
     font-family: Catamaran;
-    padding-left: 1%;
+    padding-left: 4px;
+    padding-right: 4px;
     color: rgb(48, 48, 48);
 }
 
@@ -98,14 +104,21 @@ header .navigation li a:hover {
     padding-left: 2%;
 }
 
-/* First Section: About */
-.section1 {
-    display: flex;
-    flex-direction: column;
-}
+/* Images for the sections */
 
 #ski-lifts {
     background: url("../images/ski-lifts.jpg") no-repeat center center/cover;
+    min-height: 300px;
+}
+
+#resorts {
+    background: url("../images/resorts.png") no-repeat center center/cover;
+    min-height: 300px;
+    order: 1;
+}
+
+#pisted-slopes {
+    background: url("../images/pisted-slope.jpg") no-repeat center center/cover;
     min-height: 300px;
 }
 
@@ -133,9 +146,37 @@ footer {
 }
 
 
+/* Media queries for responsivnes */
 @media (max-width: 490px) {
     header{
         padding: 10px 20px;
         flex-direction: column;
     }
 }
+
+@media (min-width: 769px) {
+    .section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    /* Images in the sections */
+    #ski-lifts {
+        min-width: 50%;
+    }
+
+    #resorts {
+        min-width: 50%;
+        order: -1;
+    }
+
+    #pisted-slopes {
+        min-width: 50%;
+    }
+
+    .h3+p {
+        display: flex;
+        flex-direction: column;
+    }
+}    
