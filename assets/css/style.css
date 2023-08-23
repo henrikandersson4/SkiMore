@@ -1,5 +1,5 @@
 /* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;700;900&family=Montserrat:wght@400;500;700&family=Ubuntu:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&family=Montserrat:wght@400;700&family=Ubuntu:wght@300;700&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -10,8 +10,8 @@
 
 /* Header */
 header { 
-    background: #689ef1;
-    position: absolute;
+    background: #2d7ef7;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -29,9 +29,11 @@ header .logo {
     color: white;
     text-decoration: none;
     font-weight: 600;
+    font-family: Montserrat;
+    font-size: 300%;
 }
 .sm-logo {
-    color: darkblue;
+    color: black;
 }
 
 /* Navigation */
@@ -40,6 +42,7 @@ header .navigation {
     justify-content: center;
     flex-wrap: wrap;
     margin: 10px 0;
+    font-family: Ubuntu;
 }
 
 header .navigation li {
@@ -55,7 +58,7 @@ header .navigation li a {
 }
 
 header .navigation li a:hover {
-    color: darkblue;
+    color: black;
 }
 
 /* Main content */
@@ -69,11 +72,29 @@ header .navigation li a:hover {
 
 /* Footer */
 footer {
-    background-color: #689ef1
+    background-color: #2d7ef7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    padding: 0 20%;
+    list-style: none;
+}
+
+.footer li a{
+    color: white;
+}
+
+.fotter i {
+  font-size: 150%;  
 }
 
 
-@media (max-width: 424px) {
+@media (max-width: 490px) {
     header{
         padding: 10px 20px;
         flex-direction: column;
