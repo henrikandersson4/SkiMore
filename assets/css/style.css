@@ -10,6 +10,12 @@
 
 /* Genaral Styles */
 
+:root {
+    --blue: #2d7ef7;
+    --white: #fffafa;
+    --grey: #303030;
+}
+
 .section {
     display: flex;
     flex-direction: column;
@@ -20,14 +26,14 @@
     font-size: 150%;
     padding-top: 15px;
     padding-left: 6px;
-    color: rgb(48, 48, 48);
+    color: var(--grey);
 }
 
 .section p {
     font-family: Catamaran;
     padding-left: 4px;
     padding-right: 4px;
-    color: rgb(48, 48, 48);
+    color: var(--grey);
 }
 
 h4 {
@@ -35,12 +41,12 @@ h4 {
     font-size: 100%;
     padding-top: 15px;
     padding-left: 6px;
-    color: rgb(48, 48, 48);
+    color: var(--grey);
 }
 
 /* Header */
 header { 
-    background: #2d7ef7;
+    background: var(--blue);
     position: sticky;
     top: 0;
     left: 0;
@@ -61,14 +67,14 @@ header {
 header .logo {
     position: relative;
     font-size: 1.5em;
-    color: snow;
+    color: var(--white);
     text-decoration: none;
     font-weight: 600;
     font-family: Montserrat;
     font-size: 300%;
 }
 .sm-logo {
-    color: rgb(48, 48, 48);
+    color: var(--grey);
 }
 
 /* Navigation */
@@ -86,14 +92,14 @@ header .navigation li {
 }
 
 header .navigation li a {
-    color: snow;
+    color: var(--white);
     text-decoration: none;
     font-weight: 500;
     letter-spacing: 1px;
 }
 
 header .navigation li a:hover {
-    color: rgb(48, 48, 48);
+    color: var(--grey);
 }
 
 /* Main content */
@@ -107,8 +113,8 @@ header .navigation li a:hover {
 
 /* Bar between hero image and first section */
 .bar {
-    background: rgb(48, 48, 48);
-    color: snow;
+    background: var(--grey);
+    color: var(--white);
     font-family: Ubuntu;
 }
 
@@ -142,19 +148,19 @@ header .navigation li a:hover {
     margin: 30px 0px;
     font-family: Montserrat;
     font-size: 100%;
-    color: snow;
-    background: #2d7ef7;
+    color: var(--white);
+    background: var(--blue);
     border: none;
     border-radius: 1em;
 }
 
 #button-gallery:hover {
-    background: rgb(48, 48, 48);
+    background: var(--grey);
 }
 
 /* Footer */
 footer {
-    background-color: #2d7ef7;
+    background-color: var(--blue);
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -168,7 +174,7 @@ footer {
 }
 
 .footer li a{
-    color: snow;
+    color: var(--white);
     font-size: 150%;
 }
 
