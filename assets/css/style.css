@@ -113,6 +113,11 @@ header .navigation li a:hover {
     color: var(--grey);
 }
 
+#about, #destinations, #contact {
+    scroll-margin-top: 134px;
+}
+
+
 
 /* Footer */
 footer {
