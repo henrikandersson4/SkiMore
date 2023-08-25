@@ -17,7 +17,7 @@
 
 .section-title {
     font-family: Ubuntu;
-    font-size: 120%;
+    font-size: 150%;
     padding-top: 15px;
     padding-left: 6px;
     color: rgb(48, 48, 48);
@@ -27,6 +27,14 @@
     font-family: Catamaran;
     padding-left: 4px;
     padding-right: 4px;
+    color: rgb(48, 48, 48);
+}
+
+h4 {
+    font-family: Ubuntu;
+    font-size: 100%;
+    padding-top: 15px;
+    padding-left: 6px;
     color: rgb(48, 48, 48);
 }
 
@@ -100,7 +108,7 @@ header .navigation li a:hover {
 }
 
 .bar h2 {
-    font-size: 150%;
+    font-size: 250%;
     padding-left: 2%;
 }
 
