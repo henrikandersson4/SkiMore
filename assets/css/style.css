@@ -224,6 +224,12 @@ footer {
         display: flex;
         flex-direction: column;
     }
+
+    /* gallery.html */
+    #gallery li {
+        min-height: 200px;
+    }
+
 }    
 
 
@@ -234,3 +240,25 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    justify-content: center;
+}
+
+#gallery li {
+    height: 400px;
+    position: relative;
+    list-style: none;
+    flex: 1 1 auto;
+}
+
+#gallery li img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
