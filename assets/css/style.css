@@ -139,12 +139,8 @@ footer {
 
 .footer li a{
     color: snow;
+    font-size: 150%;
 }
-
-.fotter i {
-  font-size: 150%;  
-}
-
 
 /* Media queries for responsivnes */
 @media (max-width: 490px) {
