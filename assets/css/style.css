@@ -288,3 +288,7 @@ footer {
     vertical-align: middle;
 }
 
+.invisble {
+    visibility: hidden;
+    position: absolute;
+}
