@@ -258,6 +258,12 @@ footer {
 
 }    
 
+@media (max-width: 390px) {
+    #gallery-nav{
+        visibility: hidden;
+    }
+}
+
 
 
 /* Main content for gallery.html */
