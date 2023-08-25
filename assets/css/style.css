@@ -63,6 +63,12 @@ header {
     justify-content: center;
 }
 
+/* Header for gallery.html */
+.only-logo {
+    display: flex;
+    justify-content: center;
+}
+
 /* Ski more logo */
 header .logo {
     position: relative;
@@ -223,3 +229,8 @@ footer {
 
 
 /* Main content for gallery.html */
+
+#bar-gallery {
+    display: flex;
+    justify-content: center;
+}
