@@ -102,7 +102,33 @@ header .navigation li a:hover {
     color: var(--grey);
 }
 
-/* Main content */
+/* Footer */
+footer {
+    background-color: var(--blue);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    padding: 0 20%;
+    list-style: none;
+}
+
+.footer li a {
+    color: var(--white);
+    font-size: 150%;
+}
+
+
+
+
+
+
+
+/* Main content index.html*/
 
 /* Hero image */
 #two-skiers {
@@ -158,25 +184,6 @@ header .navigation li a:hover {
     background: var(--grey);
 }
 
-/* Footer */
-footer {
-    background-color: var(--blue);
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-    gap: 5em;
-    padding: 0 20%;
-    list-style: none;
-}
-
-.footer li a{
-    color: var(--white);
-    font-size: 150%;
-}
 
 /* Media queries for responsivnes */
 @media (max-width: 490px) {
@@ -212,3 +219,7 @@ footer {
         flex-direction: column;
     }
 }    
+
+
+
+/* Main content for gallery.html */
