@@ -190,6 +190,32 @@ footer {
     background: var(--grey);
 }
 
+/* Contact form */
+#contact-form {
+    font-family: Catamaran;
+    color: var(--grey);
+    font-size: 20px;
+    position: relative;
+    padding: 10px 10px;
+}
+
+#contact-form input {
+    width: 100%;
+    height: 40px;
+}
+
+#button-submit {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 15px 0px;
+    font-family: Montserrat;
+    font-size: 100%;
+    color: var(--white);
+    background: var(--blue);
+    border: none;
+    border-radius: 1em;
+}
+
 
 /* Media queries for responsivnes */
 @media (max-width: 490px) {
