@@ -2,16 +2,16 @@
 
 A website for a collective called SkiMore that consists of five Ski resorts in Sweden and Norway that has decided to work togheter to bring more people to their bussines.
 
-
 You can see the website here: <https://henrikandersson4.github.io/SkiMore/index.html>
-
 
 ![Picture of the website on diffrent devices to show responsivness](/assets/images/responsive-image.png)
 
+---
+
+## Project Portfolio One
 
 ---
-## Project Portfolio One
----
+
 ### Intention
 
 This website is a `fictional website` and created as prject number one of Code Institute’s Full Stack Software Developer Course.
@@ -42,6 +42,7 @@ When planning what to do for this project. There where a few things i wanted to 
 * View a gallery of images of the diffrent resorts
 
 #### Business Goals
+
 The business goals of SkiMore are:
 
 * In a clear and concise way convey the message of he business
@@ -53,3 +54,10 @@ The business goals of SkiMore are:
 * As a user i want to easily understand the purpose of the website
 * As a user i want to be able to navigate the website easily
 * As a user i want the website to offer clear messaging and consistent branding
+
+---
+
+## Wireframes
+
+* The first 4 images represent the first idea i had when deciding how to design the website. Both for desktop and mobile.
+* The other are website
