@@ -103,9 +103,9 @@ Wireframe for Gallery Page on mobile.
 
 I used three different fonst for the websit. `Montserrat` for the logo in the header, `Ubuntu` for all `H1-H6` headings and `Catamaran` for all other text on the site.
 
-
 ---
-# Features
+
+## Features
 
 ### Navigation bar
 
@@ -138,3 +138,63 @@ I used three different fonst for the websit. `Montserrat` for the logo in the he
 * Interactive footer that enables users to click and navigate to social media site.
 
 ![Picture of footer with social links](/assets/images/footer.png)
+
+---
+
+## Testing
+
+* All pages have been tested across all screen sizes for a responsive experience. 
+
+* I used validators to test both the code of both the HTML and CSS. I did this with the use of `W3C validator` for HTML and `Jigsaw Validator` for CSS.
+
+* I made sure that the website looks good down to a screen size of 320px wide.
+
+* All links to external websites open in a new browser window.
+
+* The Submit button in the Contact form shows a hover effect when hovered with a mouse.
+
+* The website is also tested for accessibility using `Chrome lighthouse dev tool`. (See results below)
+
+![Picture of footer with social links](/assets/images/lighthouse-results.png)
+
+
+---
+
+## Tools and Programs
+
+1. [lighthouse](https://pagespeed.web.dev/)
+*Lighthouse was used to test the accessibility of the website
+
+2. [W3C](https://validator.w3.org/)
+*Used to validate the CSS
+
+3. [Jigsaw](https://jigsaw.w3.org/css-validator)
+*Used to validate the HTML
+
+4. [Pexels](https://pexels.com/)
+*Used to download free stock images
+
+5. [Wireframe](https://wireframe.cc/)
+*Used to create the wireframes
+
+6. [Google Fonts](https://fonts.google.com/)
+Used to import different font styles to be used in styling the website
+
+7. [GitHub](https://github.com/)
+*Github is used to store the projects file after being pushed from the IDE
+
+
+---
+
+## Deployment
+
+* The website ha been deployed to GitHub pages. <https://henrikandersson4.github.io/SkiMore/index.html>
+
+---
+
+## Credits
+
+* [W3schools](https://www.w3schools.com/) - one of the best library of explanation and tutorials.
+* [Codeinstitute](https://codeinstitute.net/) - Thank you to Code Institute and the Love Running Project it supporting me with the code for this project.
+* [Learn Flexbox CSS in 8 Minutes](https://www.youtube.com/watch?v=phWxA89Dy94&t=48s) - Big thankyou to 'Slaying the Dragon' tutorial video on Youtube showing how to use Flex box to position items in CSS.
+* My Mentor - A big thank you to my Mentor Rory Patrick Sheridan.
