@@ -6,4 +6,4 @@ A website for a collective called SkiMore that consists of five Ski resorts in S
 You can see the website here: <https://henrikandersson4.github.io/SkiMore/index.html>
 
 
-/assets/images/responsive-image.png
+(/assets/images/responsive-image.png)
