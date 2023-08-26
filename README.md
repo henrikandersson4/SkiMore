@@ -14,9 +14,9 @@ You can see the website here: <https://henrikandersson4.github.io/SkiMore/index.
 
 ### Intention
 
-This website is a `fictional website` and created as prject number one of Code Institute’s Full Stack Software Developer Course.
+This website is a `fictional website` and created as project number one of Code Institute’s Full Stack Software Developer Course.
 
-This website is created with the knowledge i gained from the `HTML` and `CSS` modules of the Course.
+This website is created with the knowledge I gained from the `HTML` and `CSS` modules of the Course.
 
 When planning what to do for this project. There where a few things i wanted to achive.
 
@@ -30,8 +30,32 @@ When planning what to do for this project. There where a few things i wanted to 
 
 ---
 
-# Table of contents (Placeholder)
+# Table of contents
 
+- [SkiMore](#skimore)
+  - [Project Portfolio One](#project-portfolio-one)
+    - [Intention](#intention)
+- [Table of contents](#table-of-contents)
+  - [UX (User Experience)](#ux-user-experience)
+      - [Visitor Goals](#visitor-goals)
+      - [Business Goals](#business-goals)
+      - [User Stories](#user-stories)
+  - [Wireframes](#wireframes)
+    - [Initial design idea](#initial-design-idea)
+  - [Design](#design)
+    - [Color Scheme](#color-scheme)
+    - [Fonts](#fonts)
+  - [Features](#features)
+    - [Navigation bar](#navigation-bar)
+    - [Gallery button](#gallery-button)
+    - [Contact Form](#contact-form)
+    - [Footer](#footer)
+  - [Testing](#testing)
+  - [Tools and Programs](#tools-and-programs)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+
+---
 ## UX (User Experience)
 
 #### Visitor Goals
@@ -101,7 +125,7 @@ Wireframe for Gallery Page on mobile.
 
 ### Fonts
 
-I used three different fonst for the websit. `Montserrat` for the logo in the header, `Ubuntu` for all `H1-H6` headings and `Catamaran` for all other text on the site.
+I used three different fonts for the website. `Montserrat` for the logo in the header, `Ubuntu` for all `H1-H6` headings and `Catamaran` for all other text on the site.
 
 ---
 
@@ -113,7 +137,7 @@ I used three different fonst for the websit. `Montserrat` for the logo in the he
 
 ![Picture of nav bar on Home Page](/assets/images/nav-bar.png)
 
-* Navigation bar used for gallery page on desktop and mobile - Containing only the `SkiMore` logo beacuase the only way to go to next is back to the Home Page.
+* Navigation bar used for gallery page on desktop and mobile - Containing only the `SkiMore` logo beacuase the only way to go next is back to the Home Page.
   
 ![Picture of nav bar on gallery page](/assets/images/nav-bar-gallery.png)
 
