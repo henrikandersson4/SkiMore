@@ -223,6 +223,10 @@ footer {
     border-radius: 1em;
 }
 
+#button-submit:hover {
+    background: var(--grey);
+}
+
 
 /* Media queries for responsivnes */
 @media (max-width: 490px) {
