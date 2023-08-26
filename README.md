@@ -56,6 +56,7 @@ When planning what to do for this project. There where a few things i wanted to 
   - [Credits](#credits)
 
 ---
+
 ## UX (User Experience)
 
 #### Visitor Goals
@@ -167,7 +168,7 @@ I used three different fonts for the website. `Montserrat` for the logo in the h
 
 ## Testing
 
-* All pages have been tested across all screen sizes for a responsive experience. 
+* All pages have been tested across all screen sizes for a responsive experience.
 
 * I used validators to test both the code of both the HTML and CSS. I did this with the use of `W3C validator` for HTML and `Jigsaw Validator` for CSS.
 
@@ -206,6 +207,10 @@ Used to import different font styles to be used in styling the website
 
 7. [GitHub](https://github.com/)
 *Github is used to store the projects file after being pushed from the IDE
+
+8. [Fontawsome](https://fontawsome.com)
+*Used to import icons used on the site
+
 
 
 ---
