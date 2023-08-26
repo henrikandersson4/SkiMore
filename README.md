@@ -59,5 +59,24 @@ The business goals of SkiMore are:
 
 ## Wireframes
 
-* The first 4 images represent the first idea i had when deciding how to design the website. Both for desktop and mobile.
-* The other are website
+* These 4 images represent the first idea i had when deciding how to design the website. Both for desktop and mobile.
+
+### Initial design idea
+
+Wireframe for Home Page on desktop.
+
+![Picture of the website on diffrent devices to show responsivness](/assets/images/wireframe-homepage.png)
+
+Wirefram for Gallery Page on desktop.
+
+![Picture of the website on diffrent devices to show responsivness](/assets/images/wireframe-gallery.png)
+
+Wireframe for Home Page on mobile.
+
+![Picture of the website on diffrent devices to show responsivness](/assets/images/wireframe-homepage-phone.png)
+
+Wireframe for Gallery Page on mobile.
+
+![Picture of the website on diffrent devices to show responsivness](/assets/images/wireframe-gallery-phone.png)
+
+## Design
