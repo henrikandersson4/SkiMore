@@ -29,3 +29,27 @@ When planning what to do for this project. There where a few things i wanted to 
 * A responsive gallery page
 
 ---
+
+# Table of contents (Placeholder)
+
+## UX (User Experience)
+
+#### Visitor Goals
+
+* To quickly discern what the website is about
+* To intuitivly be able to navigate between the different sections and pages
+* To be accessible on all devices
+* View a gallery of images of the diffrent resorts
+
+#### Business Goals
+The business goals of SkiMore are:
+
+* In a clear and concise way convey the message of he business
+* Highlight the diffrent resorts connected to collective
+* Gain intrest and connect with visitors
+
+#### User Stories
+
+* As a user i want to easily understand the purpose of the website
+* As a user i want to be able to navigate the website easily
+* As a user i want the website to offer clear messaging and consistent branding
